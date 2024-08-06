@@ -36,6 +36,11 @@
                     <h2>Requisitos Funcionais</h2>
                 </div>
 
+                <div class="buttons_font">
+                    <button onclick="expandsFont('td')">+</button>
+                    <button onclick="reducesFont('td')">-</button>
+                </div>
+
                 <table class="table_requisitos">
                     <tr class="table_title">
                         <td>Index</td>
@@ -44,60 +49,62 @@
                     </tr>
 
                     <tr>
-                        <td>ER.1</td>
+                        <td>RF.1</td>
                         <td>Cadastro de Estacionamentos</td>
-                        <td>O sistema deve permitir o cadastro de diferentes estacionamentos, incluindo informações como localização, capacidade de vagas e horários de funcionamento.</td>
+                        <td class="descricao">O sistema deve permitir o cadastro de diferentes estacionamentos, incluindo informações como localização, capacidade de vagas e horários de funcionamento.</td>
                     </tr>
                     <tr>
-                        <td>ER.2</td>
+                        <td>RF.2</td>
                         <td>Visualização de Vagas Disponíveis</td>
-                        <td>Os usuários devem poder visualizar em tempo real as vagas disponíveis em cada estacionamento cadastrado, sem incluir informações restritas pela LGPD.</td>
+                        <td class="descricao">Os usuários devem poder visualizar em tempo real as vagas disponíveis em cada estacionamento cadastrado, sem incluir informações restritas pela LGPD.</td>
                     </tr>
                     <tr>
-                        <td>ER.3</td>
+                        <td>RF.3</td>
                         <td>Reserva de Vagas</td>
-                        <td>Os usuários devem ter a capacidade de reservar uma vaga de estacionamento com antecedência, quando disponível, através do aplicativo.</td>
+                        <td class="descricao">Os usuários devem ter a capacidade de reservar uma vaga de estacionamento com antecedência, quando disponível, através do aplicativo.</td>
                     </tr>
                     <tr>
-                        <td>ER.4</td>
+                        <td>RF.4</td>
                         <td>Indicação de Rotas</td>
-                        <td>O aplicativo deve fornecer rotas otimizadas para chegar ao estacionamento selecionado, considerando o tráfego em tempo real.</td>
+                        <td class="descricao">O aplicativo deve fornecer rotas otimizadas para chegar ao estacionamento selecionado, considerando o tráfego em tempo real.</td>
                     </tr>
                     <tr>
-                        <td>ER.5</td>
+                        <td>RF.5</td>
                         <td>Notificação em Tempo Real</td>
-                        <td>Os usuários devem receber notificações sobre o status de sua reserva, bem como alertas sobre vagas disponíveis ou eventos importantes, como mudanças nos horários de funcionamento.</td>
+                        <td class="descricao">Os usuários devem receber notificações sobre o status de sua reserva, bem como alertas sobre vagas disponíveis ou eventos importantes, como mudanças nos horários de funcionamento.</td>
                     </tr>
                     <tr>
-                        <td>ER.6</td>
+                        <td>RF.6</td>
                         <td>Feedback dos Usuários</td>
-                        <td>Deve ser possível para os usuários fornecer feedback sobre a experiência de estacionamento, ajudando a melhorar o serviço.</td>
+                        <td class="descricao">Deve ser possível para os usuários fornecer feedback sobre a experiência de estacionamento, ajudando a melhorar o serviço.</td>
                     </tr>
                     <tr>
-                        <td>ER.7</td>
+                        <td>RF.7</td>
                         <td>Administração do Sistema</td>
-                        <td>Os administradores devem ter acesso a um painel de controle onde possam gerenciar informações sobre os estacionamentos, verificar estatísticas de uso e responder a feedback dos usuários.</td>
+                        <td class="descricao">Os administradores devem ter acesso a um painel de controle onde possam gerenciar informações sobre os estacionamentos, verificar estatísticas de uso e responder a feedback dos usuários.</td>
                     </tr>
                     <tr>
-                        <td>ER.8</td>
+                        <td>RF.8</td>
                         <td>Recomendação de Vagas</td>
-                        <td>Deve existir um sistema de recomendação de vagas personalizado, baseado nas preferências e histórico de utilização de cada usuário.</td>
+                        <td class="descricao">Deve existir um sistema de recomendação de vagas personalizado, baseado nas preferências e histórico de utilização de cada usuário.</td>
                     </tr>
                     <tr>
-                        <td>ER.9</td>
+                        <td>RF.9</td>
                         <td>Disponibilidade de Vagas</td>
-                        <td>Implementar um sistema de avaliação em tempo real da disponibilidade de vagas, considerando fatores como o tamanho do veículo e a acessibilidade da vaga.</td>
+                        <td class="descricao">Implementar um sistema de avaliação em tempo real da disponibilidade de vagas, considerando fatores como o tamanho do veículo e a acessibilidade da vaga.</td>
                     </tr>
                     <tr>
-                        <td>ER.10</td>
+                        <td>RF.10</td>
                         <td>Inteligência em Gerenciamento de Conflitos</td>
-                        <td>Desenvolver um mecanismo para resolver conflitos de reservas, como quando dois usuários reservam a mesma vaga no mesmo horário, priorizando critérios como fidelidade do usuário ou urgência da reserva.</td>
+                        <td >Desenvolver um mecanismo para resolver conflitos de reservas, como quando dois usuários reservam a mesma vaga no mesmo horário, priorizando critérios como fidelidade do usuário ou urgência da reserva.</td>
                     </tr>
 
                 </table>
             </div>
         </section>
     </main>
+
+    <script src="./assets/js/setFontSize.js"></script>
 
 </body>
 

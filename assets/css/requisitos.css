@@ -21,5 +21,47 @@
     width: 99%;
     max-width: 900px;
     display: flex;
+}
+
+
+.table_requisitos td {
     border: 1px solid #182f42;
+    color: #182f42;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.table_title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.table_requisitos .descricao {
+    text-align: justify;
+}
+
+.buttons_font {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.buttons_font button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #182f42;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #182f42;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.buttons_font button:hover {
+    color: #fff;
+    background: #182f42;
 }
