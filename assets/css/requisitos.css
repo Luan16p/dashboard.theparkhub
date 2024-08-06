@@ -1,0 +1,25 @@
+.requisitos_hero {
+    height: auto;
+    padding: 30px;
+    background: #fff;
+}
+
+.requisitos_hero .requisitos_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.requisitos_hero .requisitos_content .title {
+    text-align: center;
+    color: #182f42;
+}
+
+.table_requisitos {
+    width: 99%;
+    max-width: 900px;
+    display: flex;
+    border: 1px solid #182f42;
+}
